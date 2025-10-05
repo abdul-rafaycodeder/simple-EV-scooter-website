@@ -1,0 +1,182 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f5eded;
+  background: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #110e0e;
+  color: #fff;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ;
+}   
+
+header h1 {
+  font-size: 24px;
+  color: #00ff99;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 50px;
+  background: linear-gradient(to right, #141b30, #141b30);
+  color: rgb(247, 247, 247);
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #00ff99;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #00ff99;
+  color: #f5f5f5;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00cc77;
+}
+
+.hero img {
+  width: 450px;
+  border-radius: 12px;
+}
+
+/* Features Section */
+.features {
+  text-align: center;
+  padding: 60px 40px;
+}
+
+.features h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #f6f8fb;
+}
+
+.feature-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.feature {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(202, 180, 180, 0.1);
+}
+
+.feature h4 {
+  margin-bottom: 15px;
+  color: #00cc77;
+}
+
+/* Footer */
+footer {
+  background: #000000;
+  color: #28e0a3;
+  text-align: center;
+  font-size: x-large;
+  padding:  30px;
+  margin-top: 50px;
+}
+
+a{
+    text-decoration: none;  
+    color: ivory;
+    font-size:x-large;
+    }
+
+#navbar{
+
+    height: 60px;
+    background-color: #001c47   ;
+}
+
+h1{
+
+    color: #00ff99;
+    background-color: black;
+    text-align:center;
+    border-radius: 100px;
+}
+
+div{
+
+    color: #000000;
+    text-align: center;
+    font-size: xx-large;
+}
+
+p{
+    text-align: center;
+    font-weight: 700;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    background-color: black;
+    color: #00ff99;
+    border-radius: 100pc;
+    font-weight:  700;
+    
+}
+
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight:  700
+}
+
+h4{
+
+    text-align: center;
+}
+
+footer{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(black);
+}
