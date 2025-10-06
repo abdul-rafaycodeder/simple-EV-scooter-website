@@ -7,21 +7,20 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: #f5eded;
+  color: #333;
   background: #f8f9fa;
   line-height: 1.6;
 }
 
-/* Header */
+
 header {
-  background: #110e0e;
+  background: #000000;
   color: #fff;
   padding: 20px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  ;
-}   
+}
 
 header h1 {
   font-size: 24px;
@@ -31,19 +30,19 @@ header h1 {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 60px 50px;
-  background: linear-gradient(to right, #141b30, #141b30);
-  color: rgb(247, 247, 247);
-}
+  background: linear-gradient(to right, #0d1d35, #0d1d35);
+  color: white;
+}   
 
 .hero-text {
   max-width: 500px;
@@ -63,7 +62,7 @@ nav a {
 .btn {
   padding: 12px 25px;
   background: #00ff99;
-  color: #f5f5f5;
+  color: #0a192f;
   font-weight: bold;
   border: none;
   border-radius: 6px;
@@ -81,7 +80,6 @@ nav a {
   border-radius: 12px;
 }
 
-/* Features Section */
 .features {
   text-align: center;
   padding: 60px 40px;
@@ -90,7 +88,7 @@ nav a {
 .features h3 {
   font-size: 32px;
   margin-bottom: 30px;
-  color: #f6f8fb;
+  color: #0a192f;
 }
 
 .feature-box {
@@ -103,7 +101,7 @@ nav a {
   background: white;
   padding: 25px;
   border-radius: 10px;
-  box-shadow: 0px 5px 15px rgba(202, 180, 180, 0.1);
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
 }
 
 .feature h4 {
@@ -111,72 +109,13 @@ nav a {
   color: #00cc77;
 }
 
-/* Footer */
 footer {
-  background: #000000;
-  color: #28e0a3;
+  background: #0a192f;
+  color: #fff;
   text-align: center;
+  padding: 23px;
   font-size: x-large;
-  padding:  30px;
-  margin-top: 50px;
-}
-
-a{
-    text-decoration: none;  
-    color: ivory;
-    font-size:x-large;
-    }
-
-#navbar{
-
-    height: 60px;
-    background-color: #001c47   ;
-}
-
-h1{
-
-    color: #00ff99;
-    background-color: black;
-    text-align:center;
-    border-radius: 100px;
-}
-
-div{
-
-    color: #000000;
-    text-align: center;
-    font-size: xx-large;
-}
-
-p{
-    text-align: center;
-    font-weight: 700;
-}
-
-h2{
-    text-align: center;
-    font-size: xx-large;
-    background-color: black;
-    color: #00ff99;
-    border-radius: 100pc;
-    font-weight:  700;
-    
-}
-
-h3{
-    text-align: center;
-    font-size: xx-large;
-    font-weight:  700
-}
-
-h4{
-
-    text-align: center;
-}
-
-footer{
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  background: linear-gradient(black);
+  position: relative;
+  top: 70px;
+  margin-top: 40px;
 }
